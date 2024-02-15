@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="container-img">
+                <img src="img/img-form.jpg" alt="Imagem">
+                <h1>Se torne um profissional <br> de sucesso com a gente.</h1>
+            </div>
+            <section class="content">
+                    <h1>Faça Login</h1>
+                    <p class="paragrafo">Ainda não possui uma conta? cadastre-se <a href="#" class="cadastro-link">Aqui</a></p>
+                    <div class="links">
+                        <div class="google">
+                            <img src="img/icon-google.png" alt="Ícone Google">
+                            <a href="#">Faça login com o Google</a>
+                        </div>
+                        <div class="facebook">
+                            <img src="img/icon-facebook.png" alt="Ícone Facebook">
+                            <a href="#">Faça login com o Facebook</a>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="container-inputs">
+                            <div class="form-control">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="exemplo@ativo.com" autocomplete="off">
+                                <div class="error_message"></div>
+                            </div>
+
+                            <div class="form-control">
+                                <label for="senha">Senha</label>
+                                <input type="password" id="senha" placeholder="*********">
+                                <div class="error_message"></div>
+                            </div>
+                            
+                            <div class="form-control">
+                                <div class="checkbox-container" id="box_error_checkbox">
+                                    <label for="check">
+                                        Eu aceito os <span class="texto-destaque">Termos de Política</span> e <span class="texto-destaque">Privacidade</span>.
+                                    </label>
+                                    <input type="checkbox" id="check">
+                                </div>
+                                <div class="error_message"></div>
+                            </div>
+                                <button type="submit" class="button">Registrar</button>
+                        </div>
+                    </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
