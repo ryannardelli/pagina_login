@@ -23,23 +23,23 @@ function valida() {
     let valid = true;
 
     if (email === '') {
-        mostraErro(input_email, 'E-mail não pode ficar em branco.')
+        mostraErro(input_email, 'E-mail não pode ficar em branco.');
         valid = false;
     } else if (!isValid(email)) {
-        mostraErro(input_email, 'E-mail inválido.')
+        mostraErro(input_email, 'E-mail inválido.');
         valid = false;
     }
 
     if (senha === '') {
-        mostraErro(input_senha, 'Senha não pode ficar em branco.')
+        mostraErro(input_senha, 'Senha não pode ficar em branco.');
         valid = false;
     } else if (senha.length < 8 || senha.length > 12) {
-        mostraErro(input_senha, 'Senha precisa ter entre 8 ou 12 caracteres.')
+        mostraErro(input_senha, 'Senha precisa ter entre 8 ou 12 caracteres.');
         valid = false;
     }
 
     if (!checkbox.checked) {
-        mostraErro(box_error_checkbox, 'Por favor, aceite os Termos de Política e Privacidade para prosseguir.')
+        mostraErro(box_error_checkbox, 'Por favor, aceite os Termos de Política e Privacidade para prosseguir.');
         valid = false;
     }
 
@@ -55,7 +55,7 @@ function mostraErro(input, msg_error) {
 
 function resetError() {
     error_messages.forEach((error_message) => {
-        error_message.innerText = ''
+        error_message.innerText = '';
     })
     input_email.parentElement.classList.remove('error');
     input_senha.parentElement.classList.remove('error');
