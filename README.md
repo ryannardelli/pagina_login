@@ -9,7 +9,7 @@ Este projeto se trata de uma página de login que contém validação feito com 
 
 ## Como Usar
 
-1. Clone o repositório: git clone https://github.com/ryannardelli/android.git
+1. Clone o repositório: git clone https://github.com/ryannardelli/pagina_login.git
 2. Abra o arquivo 'index.html' no seu navegador
 
 ## Instalação
